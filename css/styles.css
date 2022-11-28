@@ -619,14 +619,13 @@ footer {
     margin-right: 10px;
 }
 
-.footer-twitter-link{
+.footer-icon {
+    fill: currentColor;
+}
+
+.footer-icon-link:hover, 
+.footer-icon-link:focus{
     background-color: var(--logo-color);
     color: var(--white-font-color);
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
 }
 
